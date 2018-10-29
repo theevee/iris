@@ -1,0 +1,20 @@
+Initial UX:
+- Firefox browser is open automatically in restore mode. It should be maximized.
+- The screen has horizontal scrolling no matter how much the screen is zoomed.
+- When test is done the firefox is close. User can only view result with the next run.
+- when test is run manually from a tab on firefox, it still close that whole browser.
+When user does not select any option the screen closes, and user needs to go the terminal to see what's going on. There should be validation/user prompts on screen.
+
+In App UX and UI:
+- The UI is not user friendly.
+- Missing navigation, when viewing result detail. Also, there should be better navigation on main page as well.
+- Each test suites presented may contain a lot of tests. Each main tests should view number of sub tests. It would be greater to also state time consumption too.
+- Past run test results should be below new buttons somewhere. Their list item information should be better organized too.
+- Start new run "Go" should be changed to a button with text like "Run New Test".
+- Options for running new test can be group and display in a modal box after click "Run New Test".
+- "Cancel" button should be changed to "Exit" or "Close" as the way it behaves.
+- In page title, it says "Iris Control Center", so the page should have a proper header and footer, plus maybe a logo. However, this might not be necessary if this tool is going to be embeded in the the browser or another application.
+
+Functionality:
+- Some tests failed when run single test e.g. add_links_keyboard_shortcuts.
+- Some feature not working or not instructed how it works e.g. "Email Results" which email address is the email sent to?
